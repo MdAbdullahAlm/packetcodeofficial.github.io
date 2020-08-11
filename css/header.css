@@ -1,0 +1,190 @@
+ * {
+    
+     padding: auto;
+	 margin: auto;
+   }
+body{
+  
+     /*max-width: 1230px;*/
+	 margin: auto;
+	 /*background-color: black;*/
+	}
+
+#HeaderLogo {
+	padding-top: 10px;
+     background-color: black;
+      width: auto;
+     height: 80px;
+ }
+ #LogoWork {
+	 /*width: 300px;*/
+     height: 60px;
+     float: left;
+	
+}
+ #LogoWork img{
+	padding-top: 1px;
+	height: 60px;
+	width: 60px;
+     float: left;
+	
+}
+#LogoSideWork{
+	width: 600px; 
+	height: 60px;
+	float: right;
+}
+.searchBox{
+	padding-top: 1px; 
+	float: left;
+	margin: 0px; 
+	width: 250px;
+}
+#input-group{
+	margin: 5px; 
+	 float: left;
+	 width: 320px;
+	padding-top: 0px;
+}
+.input-group-btn{
+	float: left; 
+    padding-top: 4px;
+	margin: 0px 4px;
+}	
+.glyphicon-search {
+    font-size: 17px;
+}
+.glyphicon-search img{
+    width: 35px;
+	height: 28px;
+	
+}
+        
+.glyphicon-search:before {
+    content: "";
+}
+        
+.btn-default {
+            background: orange;
+            width: auto;
+			height: auto;
+            padding: 0px;
+			background-color: lightblue;
+}
+        
+        
+		
+.form-control {
+            padding: 5px;
+            font-size: 13px;
+			width: 250px;
+			height: 210px;
+			float:left;
+        }
+        
+        
+		.btno {
+		     top: 0px;
+            font-family: arial;
+            text-transform: uppercase;
+            width: 75px;
+            height: 25px;
+            border-radius: 80px;
+            line-height: auto;
+            text-align: center;
+            border: 4px solid #009688;
+            display: block;
+            text-decoration: none;
+			color:black;
+            position: relative;
+            overflow: hidden;
+            background: transparent;
+            transition: .8xs;
+			padding:0px; 
+			font-size:12px; 		  
+			font: bold;
+			align:center;
+			float: left; 
+			margin: 2px ;
+			
+        }
+.btno:hover {
+     color: black;
+     background: lightblue;
+ }
+		
+		
+		
+.post_Box{
+}
+
+
+ p{
+	text-align:justify; 
+ }
+ 
+ 
+ /* login */
+ #login{
+	 width: 200px;
+	 margin: 10px; 
+	 float: right;
+ }
+ #login a{
+ color: white;
+ }
+ #HeaderMenu {
+     /* background-color: red;*/
+     width: auto;
+     height: 40px;
+	 background-color: #030d2b;
+ }
+ 
+ #HeaderMenu ul {
+     list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+
+ }
+ 
+ #HeaderMenu ul li {
+     background: #030d2b;
+     height: 25px;
+     width: 110px;
+      /*border: 1px solid  #515163;
+	  border-right: 2px solid red;*/
+     text-align: center;
+     line-height: 25px;
+     float: left;
+     position: relative;
+	
+ }
+ 
+ #HeaderMenu ul li a {
+     text-decoration: none;
+     font-size: 17px;
+     color: #fff;
+     /*font-weight: bold;*/
+     display: block;
+ }
+ 
+ #HeaderMenu ul li a:hover {
+     color: white;
+     background: #528feb;
+ }
+ 
+ #HeaderMenu ul ul {
+	 
+     position: absolute;
+     display: none;
+ }
+ 
+ #HeaderMenu ul li:hover >ul {
+     display: block;
+	 background: #202c50;
+ }
+ 
+ #HeaderMenu ul ul ul {
+     left: 100%;
+     top: 0;
+ }
